@@ -1,0 +1,91 @@
+section {
+  border: 2px solid #c2daba;
+  background-color: #c2daba;
+}
+div {
+  border: 2px solid red;
+}
+body {
+  margin-top: 74px;
+  width: 100%;
+}
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+nav {
+  display: flex;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.productos {
+  font-weight: bold;
+}
+.navegación2 {
+  position: absolute;
+  display: flex;
+  right: 0px;
+  border: #c2daba;
+}
+main {
+  border: 2px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  border: 2px solid #c2daba;
+  background-color: #c2daba;
+  justify-content: center;
+}
+
+#caja {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+}
+.caja1 {
+  background-color: blueviolet;
+}
+.caja2 {
+  background-color: rgb(23, 189, 50);
+}
+.caja3 {
+  background-color: rgb(189, 23, 87);
+}
+.caja4 {
+  background-color: rgb(4, 5, 83);
+}
+.caja5 {
+  background-color: rgb(143, 112, 11);
+}
+.caja6 {
+  background-color: rgb(182, 64, 162);
+}
+.caja7 {
+  background-color: rgb(226, 12, 12);
+}
+.caja8 {
+  background-color: rgb(33, 218, 171);
+}
+.caja9 {
+  background-color: rgb(180, 145, 145);
+}
