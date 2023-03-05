@@ -25,24 +25,40 @@
       </section>
     </header>
     <main>
-      <form action="">
+      <form>
         CONTACTO <br />
-        Nombre: <input type="text" name="nombre" />
+        Nombre:
+        <input
+          type="text"
+          name="nombre"
+          class="form_label"
+          id="nombre_apellido"
+        />
         <br />
         <br />
-        Apellido: <input type="text" name="apellido" />
+        Apellido:
+        <input
+          type="text"
+          name="apellido"
+          class="form_label"
+          id="nombre_apellido"
+        />
         <br />
         <br />
         Indique sexo:
         <br />
-        Masculino: <input type="radio" name="sexo" /> <br />
-        Femenino: <input type="radio" name="sexo" /> <br />
+        Masculino: <input type="radio" name="sexo" class="form_label" /> <br />
+        Femenino: <input type="radio" name="sexo" class="form_label" /> <br />
         <br />
         Dejar un comentario: <br />
-        <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-        <br />
-        <input type="submit" />
-        <input type="reset" value="Restablecer" />
+        <textarea
+          name="comentario"
+          id="comentario"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="Enviar" class="enviar_reestablecer" />
+        <input type="reset" value="Restablecer" class="enviar_reestablecer" />
       </form>
     </main>
     <footer id="footer">&copy; 2023 , Linz Design</footer>

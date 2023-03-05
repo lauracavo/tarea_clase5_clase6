@@ -1,3 +1,4 @@
+/*ESTILO COMPARTIDO*/
 section {
   border: 2px solid #c2daba;
   background-color: #c2daba;
@@ -47,14 +48,14 @@ main {
 footer {
   display: flex;
   position: absolute;
+  bottom: 0;
   width: 100%;
-  left: 0px;
-  bottom: 0px;
+  height: 40px;
   border: 2px solid #c2daba;
   background-color: #c2daba;
   justify-content: center;
 }
-
+/*ESTILO INICIO*/
 #caja {
   width: 120px;
   height: 120px;
@@ -86,4 +87,38 @@ footer {
 }
 .caja9 {
   background-color: rgb(180, 145, 145);
+}
+
+/*ESTILO FORMULARIO*/
+form {
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #4ebb9c;
+}
+.form_label {
+  width: 72px;
+  font-weight: bold;
+  display: inline-block;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  resize: none;
+  display: block;
+}
+.enviar_reestablecer {
+  width: 100%;
+  padding: 8px 16px;
+  margin-top: 32px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: block;
+  color: #fff;
+  background-color: #000;
 }
