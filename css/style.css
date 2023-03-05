@@ -2,9 +2,7 @@ section {
   border: 2px solid #c2daba;
   background-color: #c2daba;
 }
-div {
-  border: 2px solid red;
-}
+
 body {
   margin-top: 74px;
   width: 100%;
@@ -41,7 +39,6 @@ a {
   border: #c2daba;
 }
 main {
-  border: 2px solid blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
